@@ -1,12 +1,28 @@
 "# ????? BikeShare" 
+# Documentation: Explore US Bikeshare Data  
+
+This document provides detailed documentation for the **Explore US Bikeshare Data** project, which analyzes bikeshare usage in major U.S. cities.  
 
 ---
 
-# **Explore US Bikeshare Data**  
+## **1. Project Overview**  
+This project explores and analyzes bikeshare usage data from cities such as **New York, Washington, and Chicago**. The goal is to uncover patterns in bike usage over time, user behavior, and peak usage hours.  
 
-This project aims to explore and analyze bikeshare usage data in major US cities. It includes an analysis of the time periods during which bikes are used in cities such as **Chicago, Washington, and New York City**.  
+---
 
-## **Requirements**  
+## **2. Data Sources**  
+The project relies on publicly available datasets, including:  
+
+- `chicago.csv` - Bikeshare data for Chicago  
+- `new_york_city.csv` - Bikeshare data for New York  
+- `washington.csv` - Bikeshare data for Washington  
+
+You can download the datasets from [this official source](https://www.divvybikes.com/system-data).  
+
+---
+
+## **3. Technical Requirements**  
+Before running the project, install the required dependencies:  
 
 - Python 3.x  
 - pandas  
@@ -14,48 +30,6 @@ This project aims to explore and analyze bikeshare usage data in major US cities
 - matplotlib  
 - seaborn  
 
-## **Installation**  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/username/Explore-US-Bikeshare-Data.git
-   ```
-2. Navigate to the project directory:  
-   ```bash
-   cd Explore-US-Bikeshare-Data
-   ```
-3. Install the required dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## **Usage**  
-
-To analyze bikeshare data, you can run the script `bikeshare.py` using Python. The script requires the following CSV files to function properly:  
-
-- `chicago.csv`  
-- `new_york_city.csv`  
-- `washington.csv`  
-
-Run the script using:  
-   ```bash
-   python bikeshare.py
-   ```
-
-The script will prompt you to select a city and apply various filters to explore different aspects of the dataset.  
-
-## **Contributing**  
-
-If you would like to contribute to this project, follow these steps:  
-
-1. Fork the repository.  
-2. Create a new branch:  
-   ```bash
-   git checkout -b feature-xyz
-   ```
-3. Make your changes and commit them.  
-4. Push the branch to your forked repository and create a pull request.  
-
-## **License**  
-
-This project is licensed under the [MIT License](LICENSE).  
+Install dependencies using:  
+```bash
+pip install -r requirements.txt
