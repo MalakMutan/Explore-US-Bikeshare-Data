@@ -1,48 +1,52 @@
-# Explore US Bikeshare Data
-هذا المشروع يهدف إلى استكشاف وتحليل بيانات استخدام دراجات المدن الكبرى في الولايات المتحدة. يتضمن تحليل البيانات المتعلقة بالفترات الزمنية التي يتم خلالها استخدام الدراجات في مدن مثل شيكاغو وواشنطن ونيويورك.
-## المتطلبات
+رExplore US Bikeshare Data
+This project aims to explore and analyze bikeshare usage data in major US cities. It includes an analysis of the time periods during which bikes are used in cities such as Chicago, Washington, and New York City.
 
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-## كيفية التثبيت
-
-1. استنساخ المستودع:
-   ```bash
-   git clone https://github.com/username/Explore-US-Bikeshare-Data.git
-
-
+Requirements
+Python 3.x
+pandas
+numpy
+matplotlib
+seaborn
+Installation
+Clone the repository:
+bash
+نسخ
+تحرير
+git clone https://github.com/username/Explore-US-Bikeshare-Data.git
+Navigate to the project directory:
+bash
+نسخ
+تحرير
 cd Explore-US-Bikeshare-Data
+Install the required dependencies:
+bash
+نسخ
+تحرير
 pip install -r requirements.txt
+Usage
+To analyze bikeshare data, you can run the script bikeshare.py using Python. The script requires the following CSV files to function properly:
+
+chicago.csv
+new_york_city.csv
+washington.csv
+Run the script using:
+
+bash
+نسخ
+تحرير
 python bikeshare.py
+The script will prompt you to select a city and apply various filters to explore different aspects of the dataset.
 
-### 5. **كيفية الاستخدام**  
-شرح بسيط حول كيفية استخدام الأكواد أو السكربتات في المشروع:
+Contributing
+If you would like to contribute to this project, follow these steps:
 
-```markdown
-## كيفية الاستخدام
-
-لتنفيذ تحليل بيانات الدراجات، يمكنك تشغيل السكربت `bikeshare.py` باستخدام Python. سيتطلب منك توفير الملفات التالية:
-- `chicago.csv`
-- `new_york_city.csv`
-- `washington.csv`
-## المساهمة
-
-إذا كنت ترغب في المساهمة في هذا المشروع، يرجى اتباع الخطوات التالية:
-
-1. استنساخ المستودع
-2. أنشئ فرعًا جديدًا:
-   ```bash
-   git checkout -b feature-xyz
- 
-
-
-### 7. **التراخيص**  
-إذا كنت ترغب في إضافة تفاصيل حول الترخيص:
-
-```markdown
-## الترخيص
-
-هذا المشروع مرخص بموجب [MIT License](LICENSE).
+Fork the repository.
+Create a new branch:
+bash
+نسخ
+تحرير
+git checkout -b feature-xyz
+Make your changes and commit them.
+Push the branch to your forked repository and create a pull request.
+License
+This project is licensed under the MIT License
